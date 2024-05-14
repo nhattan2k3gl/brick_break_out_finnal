@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-image: url(image/MainBackround.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+canvas {
+    margin-top: 100px;
+}
+#score {
+    margin-top: 30px;
+    position: relative;
+    text-align: center;
+}
+#score > p {
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+    padding-inline: 100px;
+}
